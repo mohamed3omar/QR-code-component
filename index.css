@@ -13,8 +13,8 @@ body{
     transform: translate(-50%, -50%);
 }
 .container{
-    width: 350px;
-    height: 540px;
+    width: 330px;
+    height: 500px;
     padding: 18px;
     background-color:  hsl(0, 0%, 100%);
     border-radius: 10px;
@@ -27,17 +27,16 @@ img{
     margin-bottom: 10px;
 }
 h1{
-    font-family: 'Outfit';
-    
-    font-size: 25px;
+    font-family: 'Outfit'; 
+    font-size: 22px;
     padding: 10px;
     text-align: center;
 }
 p{  
     
-    font-size: 17px;
+    font-size: 16px;
     padding: 10px;
-    font-weight: 900;
+    font-weight: 400;
     font-family:  'Outfit';
     color: rgb(162, 151, 151);
     text-align: center;
