@@ -41,10 +41,3 @@ p{
     color: rgb(162, 151, 151);
     text-align: center;
 }
-@media (min-width: 768px) {
-
-    .container{
-        width: ;
-    }
-    
-}
