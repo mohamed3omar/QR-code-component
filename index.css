@@ -13,31 +13,47 @@ body{
     transform: translate(-50%, -50%);
 }
 .container{
-    width: 220px;
-    height: 350px;
-    padding: 9px;
+    width: 400px;
+    height: 630px;
+    padding: 18px;
     background-color:  hsl(0, 0%, 100%);
     border-radius: 10px;
 }
+
 img{
     max-width: 100%;
     height: auto;
     border-radius: 7px;
     margin-bottom: 10px;
 }
-h3{
+h1{
     font-family: 'Outfit';
-    font-weight: 700;
-    font-size: 15px;
-    padding: 7px;
+    
+    font-size: 30px;
+    padding: 12px;
     text-align: center;
 }
 p{  
     
-    font-size: 11px;
-    padding: 7px;
-    
+    font-size: 20px;
+    padding: 13px;
+    font-weight: 900;
     font-family:  'Outfit';
     color: rgb(162, 151, 151);
     text-align: center;
+}
+@media (max-width: 376px) {
+    .container{
+        width:330px;
+        height: 520px;
+    }
+    p{
+        font-size: 15px !important;
+        padding: 10px;
+    }
+}
+@media (max-width:376px) {
+    h1{
+        font-size: 22px;
+    }
 }
